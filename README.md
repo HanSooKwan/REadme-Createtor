@@ -1,15 +1,16 @@
 # 1. 본 파일의 구조
 > 1. echocardiography 폴더  
 > + 가장 중요한 폴더이다. 여기에 데이터를 입력한다. 폴더 구조에 맞게 데이터들을 분류하여 넣어야 한다.  
+-Directory 구조-  
 ㄴechocardiography/train  
- ㄴechocardiography/train/A2C  
- ㄴechocardiography/train/A4C  
+ㄴㄴechocardiography/train/A2C  
+ㄴㄴechocardiography/train/A4C  
 ㄴechocardiography/validation  
- ㄴechocariography/validation/A2C  
- ㄴechocardiography/validation/A4C  
+ㄴㄴechocariography/validation/A2C  
+ㄴㄴechocardiography/validation/A4C  
 ㄴechocardiography/test  
- ㄴechocardiography/test/A2C  
- ㄴechocardiography/test/A4C  
+ㄴㄴechocardiography/test/A2C  
+ㄴㄴechocardiography/test/A4C  
 
 > 2. SAUNet에 관한 폴더  
 > + ckpt\SAUNet  
