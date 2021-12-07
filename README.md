@@ -36,6 +36,7 @@ ensemble 모델의 전반적인 test가 여기서 진행된다.
 
 
 # 2. SEVSNUK-net 사용법
+## 유의사항: 꼭!! echocardiography 파일 내에 directory에 맞게 Data를 넣은 뒤 실행시켜주세요!!
 SEVSNUK-net을 사용할 때 가장 핵심 파일은 train.py와 test.py이다.
 
 train.py는 SEVSNUK-net을 학습시키고자 할 때 실행하는 파일이고
