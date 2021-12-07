@@ -1,6 +1,15 @@
 # 1. 본 파일의 구조
 > 1. echocardiography 폴더  
-가장 중요한 폴더이다. 여기에 데이터를 입력한다. 폴더 구조에 맞게 데이터들을 분류하여 넣어야 한다.
+> + 가장 중요한 폴더이다. 여기에 데이터를 입력한다. 폴더 구조에 맞게 데이터들을 분류하여 넣어야 한다.
+ㄴechocardiography/train
+  ㄴechocardiography/train/A2C
+  ㄴechocardiography/train/A4C
+ㄴechocardiography/validation
+  ㄴechocariography/validation/A2C
+  ㄴechocardiography/validation/A4C
+ㄴechocardiography/test
+  ㄴechocardiography/test/A2C
+  ㄴechocardiography/test/A4C
 
 > 2. SAUNet에 관한 폴더  
 > + ckpt\SAUNet  
@@ -37,14 +46,14 @@ test.py는 이미 학습되어진 SEVSNUK-net를 test하고 싶을 때 실행하
 test, validation의 경우도 마찬가지이다. 
 
 > 1. test만 하고 싶을때  
-test.py만 실행  
+python3 test.py 만 실행  
 
 > 2. train만 하고 싶을때  
-train.py만 실행  
+python3 train.py만 실행  
 -> 단, 이경우 끝나면 ckpt_for_test 내에 저장된 model들이 달라지기 때문에 결과 달라질 수 있음
 
 > 3. train하고 test하고 싶을때  
-train.py  실행 후 test.py 실행하면 됨
+python3 train.py  실행 후 python3 test.py 실행하면 됨
 
 ## 1) train.py
 train.py는 다음과 같이 구성된다.
