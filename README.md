@@ -109,9 +109,7 @@ test.py는 다음과 같이 구성된다.
 
 
 # 3. (추가) SEVSNUK-net을 이용해 Mask Image 생성하는 법
-## 유의사항: 꼭!! echocardiography 파일 내에 아래 설명대로  directory를 구성하고 Data를 넣은 뒤 실행시켜주세요!!
-## 유의사항: Output Mask는 uint8 datatype으로 저장된 png 파일로, 0과 1이 아닌 0과 255로 구성되어 있습니다.  
-## Output mask를 사용해 Evaluation을 진행하고 싶다면, 꼭 255로 나눈 후 사용하시길 바랍니다!!
+## 유의사항: 꼭!! echocardiography 파일 내에 아래 설명대로  directory를 구성하고 Data를 넣은 뒤 실행시켜주세요!!  Output Mask는 uint8 datatype으로 저장된 png 파일로, 0과 1이 아닌 0과 255로 구성되어 있습니다.  Output mask를 사용해 Evaluation을 진행하고 싶다면, 꼭 255로 나눈 후 사용하시길 바랍니다!!
 SEVSNUK-net을 사용하여 Mask Image (원본 Ground Truth와 크기 동일)을 생성하기 위해선 create_mask.py를 실행시키면 된다.
 
 기본적으로 이 모델은 A2C와 A4C 두 데이터 모두를 사용한다.  
